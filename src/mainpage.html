@@ -1,0 +1,14 @@
+<h2>main page</h2>
+<table>
+    <tr>
+        <th>id</th>
+        <th>name</th>
+    </tr>
+    {{#lists}}
+    <tr>
+        <td>{{id}}</td>
+        <td><a data-id="{{id}}">{{name}}</a></td>
+    </tr>
+    {{/lists}}
+</table>
+
